@@ -1,0 +1,37 @@
+{
+  "name": "cypress",
+  "version": "1.0.0",
+  "description": "E2E Testing Framework Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "cypress:open": "cypress open",
+    "start": "cypress open --browser=chrome --e2e"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arturomago60/cypress-proyect.git"
+  },
+  "keywords": [
+    "e2e",
+    "automation",
+    "framework",
+    "cypress",
+    "javascript",
+    "tyscript"
+  ],
+  "author": "Arturo Mago",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Arturomago60/cypress-proyect/issues"
+  },
+  "homepage": "https://github.com/Arturomago60/cypress-proyect#readme",
+  "devDependencies": {
+    "cypress": "^12.15.0"
+  },
+  "dependencies": {
+    "eslint": "^8.43.0",
+    "husky": "^8.0.3",
+    "lint-staged": "^13.2.2"
+  }
+}
