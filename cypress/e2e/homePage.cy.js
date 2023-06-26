@@ -1,4 +1,4 @@
-let scrollTop;
+const { scrollTop } = require("./refactoringOfVariables");
 describe("Visit Home page", () => {
   beforeEach(() => {
     // Visit page for each
@@ -10,7 +10,7 @@ describe("Visit Home page", () => {
     //With command can do scroll bottom home page
     cy.scrollTo("bottom", { duration: 500 });
     //With this command come back to Top page.
-    cy.get("#scrollUp").click();
+    cy.get(scrollTop).click();
   });
   //Scroll to mid page
   it("Do scroll to mid page", () => {
