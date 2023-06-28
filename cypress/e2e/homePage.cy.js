@@ -3,10 +3,11 @@ describe("Visit Home page", () => {
   beforeEach(() => {
     // Visit page for each
     cy.visit("/");
+    //Disable logs for request
+    cy.intercept({ resourceType: /xhr|fetch/ }, { log: false });
   });
 
   it("Simple visit", () => {
-    //   cy.visit("/");
     //With command can do scroll bottom home page
     cy.scrollTo("bottom", { duration: 500 });
     //With this command come back to Top page.

@@ -1,0 +1,13 @@
+[
+  {
+    "nombre": "Arturo",
+    "apellido": "Mago",
+    "company": "ApplyDigital",
+    "address": "Santa Victoria 492",
+    "address2": "Santiago",
+    "state": "Región Metropolitana",
+    "city": "Santiago",
+    "zipcode": "8320000",
+    "mobileNumber": "+56949014078"
+  }
+]
